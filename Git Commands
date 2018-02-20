@@ -1,0 +1,48 @@
+ 
+   74  git clone https://github.com/Krishnaveni-Hub/test.git
+   75  ls
+   76  cd test
+   77  ls
+   78  vi kittu.sh
+   79  ls
+   80  git add kittu.sh
+   81  git status
+   82  vi kittu.sh
+   83*
+   84  git add kittu.sh
+   85  vi sample.txt
+   86  git add --all
+   87  git status
+   88  git commit
+   89  git commit -m 'first commit'
+   90  git status
+   91  git branch
+   92  git push
+   93  git status
+   94  ls
+   95  git pull
+   96  ls
+   97  vi sample1.sh
+   98  ls
+   99  git add sample1.sh
+  100  git status
+  101  git commit -m 'its just sample file'
+  102  git push origin master
+  103  git status
+  104  git pull
+  105  git log
+  106  git branch
+  107  git checkout -b krishna
+  108  git branch
+  109  vi test3
+  110  git add test3
+  111  git status
+  112  git commit -m 'just file'
+  113  git push origin krishna
+  114  ls
+  115  git branch
+  116  git checkout master
+  117  git merge krishna
+  118  git delete krishna
+  119  git branch -d krishna
+  120  history
